@@ -1,0 +1,100 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image: url("imgs/ignasi_pattern_s.png");
+}
+
+/* Navbar styling*/
+.navbar {
+    width: 100%;
+    border-bottom: 10px solid rgba(255,255,255,.5);
+}
+
+/* main margins */
+main.container {
+    margin: 75px auto;
+}
+
+/* Content block styling */
+.block {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+/* footer styling */
+.footer {
+    background-color: #666;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 10px solid rgba(255,255,255,.5);
+}
+
+.footer p {
+    margin-top: 13px;
+    color: rgba(255,255,255,.5);
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* font styling */
+.navbar-brand {
+    font-weight: lighter;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.block p {
+    font-size: 16px;
+}
+
+/* horizontal rule styling */
+hr {
+    border-top: 1px dotted black;
+}
+
+/* about me image styling */
+.card-img {
+    width: 200px;
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+
+/* portfolio image styling */
+.img-fluid {
+    margin: 20px auto;
+}
+        
+/* contact form button styling */
+.btn-primary {
+    font-weight: lighter;
+    padding: .5rem 2rem;
+    margin-top: 10px;
+    border-radius: 0px;
+    border: none;
+}
+
+.btn-primary, .btn-primary:focus {
+    background-color: #343a40;
+}
+
+.btn-primary:hover {
+    opacity: .7;
+    background-color: #343a40;
+}
+
+/* Overrides default active state color styling */
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    opacity: .7;
+    background-color: #343a40;
+}
